@@ -1,2 +1,18 @@
 # major-project
-#INTRODUCTION
+# Introduction:
+The proliferation of electronic devices in modern society has led to a corresponding surge in electronic waste (e-waste), presenting a pressing environmental and health challenge. E-waste comprises discarded electronic devices and components, including old computers, mobile phones, batteries, and circuit boards, among others. Improper handling and disposal of e-waste can lead to pollution, toxic substance exposure, and resource wastage. Addressing these challenges requires effective e-waste management strategies, including accurate identification and classification of e-waste items.
+
+Traditional methods of e-waste classification often involve manual inspection and sorting, which are labor-intensive, time-consuming, and prone to errors. With the advancements in computer vision and deep learning, automated image classification systems offer a promising solution to streamline the e-waste classification process. By leveraging large-scale image datasets and sophisticated deep learning models, it becomes possible to develop robust systems capable of accurately categorizing e-waste items into different classes.
+
+In this project, we focus on harnessing the power of deep learning techniques, specifically pre-trained Vision Transformer models, for e-waste image classification. Vision Transformers have emerged as a state-of-the-art architecture for image recognition tasks, excelling at capturing global relationships within images. By fine-tuning a pre-trained Vision Transformer model using transfer learning, we aim to adapt it to the specific task of e-waste classification. Transfer learning allows us to leverage the knowledge learned by the pre-trained model on a large-scale dataset and apply it to a related but distinct task with a smaller dataset.
+
+The primary objective of this project is to develop a robust and accurate e-waste image classification system that can automatically categorize e-waste items into different classes. By automating the classification process, we can enhance the efficiency and effectiveness of e-waste management and recycling efforts, ultimately contributing to a more sustainable and environmentally friendly future.
+
+# Abstract:
+E-waste, comprising discarded electronic devices and components, poses significant environmental and health risks due to improper handling and disposal. Traditional methods of e-waste classification are manual, time-consuming, and error-prone. In this project, we propose an automated e-waste image classification system using deep learning techniques. Leveraging a diverse dataset of e-waste images, we fine-tune a pre-trained Vision Transformer model through transfer learning to classify e-waste items into different categories.
+
+The project begins with data collection and preprocessing, ensuring equal representation of each e-waste class to prevent class imbalance issues. The pre-trained Vision Transformer model is then fine-tuned using transfer learning, adapting it to the specific task of e-waste classification. Through experimentation, training parameters such as learning rate, batch size, and augmentation techniques are optimized to improve classification performance.
+
+Evaluation of the trained model on a separate test dataset demonstrates its effectiveness in accurately classifying e-waste images. Performance metrics such as accuracy, precision, recall, and F1 score are calculated to assess the model's performance. The results highlight the potential of the proposed approach in automating the e-waste classification process, facilitating efficient e-waste management and recycling efforts.
+
+Overall, this project contributes to the advancement of e-waste management strategies by developing a robust and accurate image classification system, paving the way for a more sustainable and environmentally friendly future.
